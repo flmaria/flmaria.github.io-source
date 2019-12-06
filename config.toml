@@ -2,6 +2,7 @@ baseurl = "https://flmaria.github.io/"
 DefaultContentLanguage = "en"
 title = "Flávio Luiz Maria"
 theme = "beautifulhugo"
+publishDir = "flmaria.github.io"
 metaDataFormat = "yaml"
 pygmentsStyle = "trac"
 pygmentsUseClasses = true
