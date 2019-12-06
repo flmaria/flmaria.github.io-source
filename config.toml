@@ -15,7 +15,7 @@ pygmentsCodefencesGuessSyntax = true
 
 [Params]
   #subtitle = "Build a beautiful and simple website in minutes"
-  mainSections = ["post","posts"]
+  mainSections = ["posts"]
   logo = "img/avatar-icon.png" # Expecting square dimensions
   favicon = "img/favicon.ico"
   dateFormat = "January 2, 2006"
@@ -53,10 +53,10 @@ pygmentsCodefencesGuessSyntax = true
   
 [[menu.main]]
     name = "Blog"
-    url = ""
+    url = "/posts"
     weight = 1
 
 [[menu.main]]
     name = "About"
-    url = "page/about/"
+    url = "/about"
     weight = 2
