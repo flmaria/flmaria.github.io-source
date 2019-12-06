@@ -27,7 +27,7 @@ For this tutorial I'm using Mac OS, so all the instructions will be placed consi
 - You have Homebrew installed;
 - Your are familiar using a terminal;
 
-### Let's begin...
+#### Let's begin...
 
 First we have to install Hugo, using your preferred terminal enter:
 
