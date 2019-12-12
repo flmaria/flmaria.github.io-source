@@ -10,9 +10,9 @@ In this post I will explain how I've created this website your are accessing rig
 
 Yes, it's is possible to have your personal website on Github and not expend any money with hosting and domain to access it.
 
-The objective for this website was having a about page telling my work experience and a blog with posts explaining subjects I like to study.
+The objective for this website was having an about page telling my work experience and a blog with posts explaining subjects I like to study.
 
-The only issue with Github pages it that your website need to be static, but don't worry, we have a solution for this.
+The only issue with Github Pages it that your website need to be static, but don't worry, we have a solution for this.
 
 So how to have a blog that is generally a dynamic website hosting as a static website on Github Pages?
 
@@ -22,20 +22,20 @@ Hugo is a framework that allows you generate a static website through out termin
 
 The idea is to have 2 repositories on your Github account, the first one will be placed your source from the Hugo's project and another to receive your generated static files.
 
-For this tutorial I'm using Mac OS, so all the instructions will be placed considering the following:
+For this tutorial, I'm using Mac OS, so all the instructions will be placed considering the following:
 
 - You have Homebrew installed;
 - Your are familiar using a terminal;
 
 #### Let's begin...
 
-First we have to install Hugo, using your preferred terminal enter:
+First we have to install Hugo, using your preferred terminal, enter:
 
 {{< highlight bash>}}
 brew install hugo
 {{< / highlight >}}
 
-To check if it was correctly installed enter
+To check if it was correctly installed, enter
 
 {{< highlight bash>}}
 hugo version
@@ -72,13 +72,13 @@ With our theme added, we can run our project
 hugo server -D
 {{< / highlight >}}
 
-We can access it right now on your browser [http://localhost:1313/][localhost]
+We can access it locally right now on your browser [http://localhost:1313/][localhost]
 
 <imagem do website recem criado>
 
 ## Deploying
 
-Like I explained before, we have to create two repositories on Github. 
+Like I've explained before, we have to create two repositories on Github. 
 Access your Github account and create a repository called hugo_site and another called `<your_github_username>`.github.io
 
 Important: replace `<your_github_username>` with your exact Github username.
